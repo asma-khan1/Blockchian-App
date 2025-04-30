@@ -1,0 +1,48 @@
+name: blockchainvotingsystem
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.17.0
+  cupertino_icons: ^1.0.8
+  animated_text_kit: ^4.2.3
+  pie_chart: ^5.3.2
+  intl: ^0.18.1
+  flutter_rating_bar: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/left.png
+    - assets/right.png
+    - assets/name.png
+    - assets/images/blockchain.png
+    - assets/images/result.png
+    - assets/images/faq.png
+    - assets/images/vote.png
+    - assets/images/anp.png
+    - assets/images/jui.png
+    - assets/images/mqm.png
+    - assets/images/pm.png
+    - assets/images/pti.jpg
+    - assets/images/ppp.png
+    - assets/images/Logo.png
+    - assets/fonts/AntonSC-Regular.ttf
+
+  fonts:
+    - family: AntonSC
+      fonts:
+        - asset: assets/fonts/AntonSC-Regular.ttf
